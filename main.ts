@@ -1,4 +1,3 @@
-let n = 0
 input.onButtonPressed(Button.A, function () {
     n = randint(1, 6)
     if (n == 1) {
@@ -113,3 +112,6 @@ input.onButtonPressed(Button.B, function () {
             `)
     }
 })
+let n = 0
+basic.showString("Hello!")
+basic.showIcon(IconNames.Heart)
